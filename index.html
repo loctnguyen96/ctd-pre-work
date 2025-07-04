@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cat Explorer 🐱</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Cat Explorer</h1>
+
+    <label for="breedSelect">Choose a breed:</label>
+    <select id="breedSelect">
+      <option value="">-- Random Cat --</option>
+    </select>
+
+    <button id="showCatButton">Show Cat</button>
+
+    <div class="image-container">
+      <img id="catImage" alt="Your cat will appear here." />
+    </div>
+
+    <div id="breedInfo"></div>
+
+    <div class="buttons">
+      <button id="favoriteButton">Favorite</button>
+    </div>
+
+    <div id="favoritesList">
+      <h2>Favorites</h2>
+      <ul id="favorites"></ul>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
