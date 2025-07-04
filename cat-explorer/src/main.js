@@ -1,3 +1,5 @@
+import './style.css'
+
 const catImage = document.getElementById("catImage");
 const breedSelect = document.getElementById("breedSelect");
 const showCatButton = document.getElementById("showCatButton");
@@ -5,7 +7,7 @@ const favoriteButton = document.getElementById("favoriteButton");
 const breedInfo = document.getElementById("breedInfo");
 const favoritesList = document.getElementById("favorites");
 
-const apiKey = "live_Za93czFQxji1mfFOPCFDyGwP0IildGK1Oou6hnPG0ES278IVXhuD1oqEX4Vt04L1";
+const apiKey = import.meta.env.VITE_CAT_API_KEY;
 
 let breeds = [];
 let currentCatData = null;
@@ -127,3 +129,4 @@ showCatButton.addEventListener("click", fetchCat);
 favoriteButton.addEventListener("click", addFavorite);
 
 loadBreeds();
+

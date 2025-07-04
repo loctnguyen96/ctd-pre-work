@@ -1,7 +1,7 @@
 # Cat Explorer
 
 ## Description
-A single-page web application built with vanilla JavaScript and TheCatAPI that allows users to explore random cats or browse cats by breed. Users can view images, read breed information, and save their favorite cats for easy access. Favorites can also be removed anytime.
+A single-page web application built with Vite, vanilla JavaScript, and TheCatAPI that allows users to explore random cats or browse cats by breed. Users can view images, read breed information, vote on images, and save their favorite cats for easy access. Favorites can also be removed anytime. API keys are stored securely in an environment variable during the build process.
 
 ## Features
 * Browse random cat images or select a breed to view specific cats
@@ -13,9 +13,9 @@ A single-page web application built with vanilla JavaScript and TheCatAPI that a
 ## Installation
 1. Clone the repository to your local machine
 2. Navigate to the project directory
-3. Open the `index.html` file in your preferred web browser
-
-   *Tip: You do not need a server to run this app. Simply double-click `index.html` or drag to the browser of your choice.*
+3. Install dependencies with: 'npm install'
+4. Start the development server with: 'npm run dev'
+5. Open your web browser and enter the local address, for example: 'http://localhost:5173/'
 
 ## Usage
 1. Select a breed from the dropdown menu or leave it blank to view random cats
